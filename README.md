@@ -1,0 +1,2 @@
+# BNNS_PAH
+The calculation data for article Structure-Aromaticity-Reactivity Relationship of One- and Two-Dimensional Polyaromatic Hydrocarbons and Polyborazines
