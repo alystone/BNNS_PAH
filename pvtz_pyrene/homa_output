@@ -1,0 +1,23 @@
+ Error: Unable to find the input file you specified in argument
+ 
+ Multiwfn -- A Multifunctional Wavefunction Analyzer
+ Version 3.8(dev), release date: 2021-Aug-25
+ Developer: Tian Lu (Beijing Kein Research Center for Natural Sciences)
+ Below paper ***MUST BE CITED*** if Multiwfn is utilized in your work:
+          Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580-592 (2012)
+ See "How to cite Multiwfn.pdf" in Multiwfn binary package for more information
+ Multiwfn official website: http://sobereva.com/multiwfn
+ Multiwfn English forum: http://sobereva.com/wfnbbs
+ Multiwfn Chinese forum: http://bbs.keinsci.com/wfn
+
+ ( Number of parallel threads:  12  Current date: 2021-09-13  Time: 11:25:26 )
+
+ Warning: You should set "KMP_STACKSIZE" environment variable as mentioned in Section 2.1.2 of Multiwfn manual!
+ 
+ Input file path, for example E:\Granblue_Fantasy\Katalina.wfn
+ (Supported: .mwfn/wfn/wfx/fch/molden/31/chg/pdb/xyz/mol/mol2/cub/grd, etc.)
+ Hint: Press ENTER button directly can select file in a GUI window. To reload the file last time used, simply input the letter "o". Input such as ?miku.fch can open the miku.fch in the same folder as the file last time used.
+"100" cannot be found, input again
+"13" cannot be found, input again
+"0" cannot be found, input again
+"1 2 3 4 5 6 7 8 9 10 11 13 14 15 16 17 -" cannot be found, input again

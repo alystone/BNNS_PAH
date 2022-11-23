@@ -1,0 +1,304 @@
+ Multiwfn -- A Multifunctional Wavefunction Analyzer
+ Version 3.6, release date: 2019-May-21
+ Project leader: Tian Lu (Beijing Kein Research Center for Natural Sciences)
+ Below paper *MUST BE CITED* if Multiwfn is utilized in your work:
+          Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580-592 (2012)
+ Multiwfn official website: http://sobereva.com/multiwfn
+ Multiwfn English forum: http://sobereva.com/wfnbbs
+ Multiwfn Chinese forum: http://bbs.keinsci.com/wfn
+ ( The number of threads: 12   Current date: 2020-01-06   Time: 22:47:20 )
+ 
+ Please wait...
+ Loading various information of the wavefunction
+ The highest angular moment basis functions is F
+ Loading basis set definition...
+ Loading orbitals...
+ Converting basis function information to GTF information...
+ Generating overlap matrix...
+ Back converting basis function information from Cartesian to spherical type...
+ Generating density matrix based on SCF orbitals...
+ 
+ Total/Alpha/Beta electrons:     94.0000     47.0000     47.0000
+ Net charge:     0.00000      Expected multiplicity:    1
+ Atoms:     24,  Basis functions:    560,  GTFs:    898
+ Total energy:    -539.711604759703 Hartree,   Virial ratio:  2.00673532
+ This is a restricted single-determinant wavefunction
+ Orbitals from 1 to    47 are occupied
+ Title line of this file: pvtz_anthraene
+
+ Loaded pvtz_anthraene.fchk successfully!
+ Formula: H10 C14 
+ Molecule weight:       178.22920
+ 
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point
+ 2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and atomic charges
+ 8 Orbital composition analysis
+ 9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and extended CDA (ECDA)
+ 17 Basin analysis
+ 18 Electron excitation analysis
+ 19 Orbital localization analysis
+ 20 Visual study of weak interaction
+ 21 Energy decomposition analysis
+ 100 Other functions (Part1)        200 Other functions (Part2)
+ 
+               ============ Other functions (Part 1) ============ 
+ 0 Return
+ 1 Draw scatter graph between two functions and generate their cube files
+ 2 Export .pdb/.xyz/.wfn/.wfx/.molden/.fch/.47 files or input file of QC codes
+ 3 Calculate molecular van der Waals Volume
+ 4 Integrate a function in whole space
+ 5 Show overlap integral between alpha and beta orbitals
+ 6 Monitor SCF convergence process of Gaussian
+ 8 Generate Gaussian input file with initial guess from fragment wavefunctions
+ 9 Evaluate interatomic connectivity and atomic coordination number
+ 11 Calculate overlap and centroid distance between two orbitals
+ 12 Perform biorthogonalization between alpha and beta orbitals
+ 13 Calculate HOMA and Bird aromaticity index
+ 14 Calculate LOLIPOP (LOL Integrated Pi Over Plane)
+ 15 Calculate intermolecular orbital overlap
+ 16 Calculate various quantities in conceptual density functional theory
+ 18 Yoshizawa's electron transport route analysis
+ 19 Generate promolecular .wfn file from fragment wavefunctions
+ 20 Calculate Hellmann-Feynman forces
+ 21 Calculate properties based on geometry information for specific atoms
+ 22 Detect pi orbitals, set occupation numbers and calculate pi composition
+ 23 Fit function distribution to atomic value
+ 24 Obtain NICS_ZZ value for non-planar or tilted system
+ Choose current situation:
+ -1: Orbitals are in localized form (e.g. LMO, NBO)
+  0: Orbitals are in delocalized form (e.g. MO, natural orbital, NTO). The system must be exactly planar
+ This system is expected to be in XY plane
+ Expected pi orbitals, occupation numbers and orbital energies (eV):
+    36      2.000000    -11.101907
+    39      2.000000    -10.061664
+    43      2.000000     -8.484933
+    44      2.000000     -8.340780
+    45      2.000000     -7.209585
+    46      2.000000     -6.745202
+    47      2.000000     -5.518654
+    48      0.000000     -1.942425
+    49      0.000000     -0.645718
+    50      0.000000     -0.140309
+    51      0.000000      0.633148
+    55      0.000000      1.497364
+    62      0.000000      3.836944
+    64      0.000000      4.741985
+    72      0.000000      7.205825
+    76      0.000000      7.723215
+    80      0.000000      8.444612
+    82      0.000000      8.576723
+    83      0.000000      8.836451
+    89      0.000000     10.100966
+    91      0.000000     10.222521
+   101      0.000000     11.630340
+   102      0.000000     11.743424
+   107      0.000000     12.803001
+   109      0.000000     13.122898
+   113      0.000000     14.390484
+   116      0.000000     14.756242
+   119      0.000000     15.281728
+   125      0.000000     17.074585
+   127      0.000000     17.451552
+   131      0.000000     18.801181
+   132      0.000000     18.956719
+   142      0.000000     20.963319
+   144      0.000000     21.824232
+   164      0.000000     26.528795
+   167      0.000000     27.609662
+   180      0.000000     31.331206
+   181      0.000000     31.599139
+   190      0.000000     33.563293
+   192      0.000000     34.435832
+   199      0.000000     35.840821
+   201      0.000000     36.364269
+   216      0.000000     40.113194
+   221      0.000000     42.095604
+   225      0.000000     44.025835
+   227      0.000000     46.661412
+   234      0.000000     49.343712
+   248      0.000000     56.868124
+   249      0.000000     57.126497
+   252      0.000000     58.047922
+   255      0.000000     59.395183
+   262      0.000000     63.094799
+   263      0.000000     63.261011
+   273      0.000000     66.942254
+   276      0.000000     67.436440
+   280      0.000000     67.635703
+   282      0.000000     68.534847
+   288      0.000000     71.080036
+   289      0.000000     71.244109
+   290      0.000000     71.299687
+   291      0.000000     71.822298
+   292      0.000000     72.866845
+   293      0.000000     72.965338
+   294      0.000000     73.156113
+   296      0.000000     73.718930
+   302      0.000000     74.490436
+   305      0.000000     74.919856
+   308      0.000000     75.764289
+   310      0.000000     76.266908
+   313      0.000000     77.842774
+   314      0.000000     78.159559
+   317      0.000000     78.855948
+   318      0.000000     78.988696
+   319      0.000000     79.994585
+   321      0.000000     80.153734
+   328      0.000000     81.251469
+   331      0.000000     82.006447
+   335      0.000000     82.551090
+   344      0.000000     84.026938
+   351      0.000000     86.058353
+   352      0.000000     86.145748
+   353      0.000000     86.297236
+   356      0.000000     86.946035
+   359      0.000000     87.865415
+   360      0.000000     88.274060
+   365      0.000000     89.532539
+   366      0.000000     89.766581
+   367      0.000000     89.837661
+   370      0.000000     90.508024
+   372      0.000000     91.161030
+   375      0.000000     91.893072
+   378      0.000000     92.424357
+   384      0.000000     94.414953
+   389      0.000000     96.506144
+   391      0.000000     96.927833
+   395      0.000000     98.268586
+   403      0.000000    100.921575
+   406      0.000000    101.460913
+   410      0.000000    102.429482
+   411      0.000000    102.575378
+   412      0.000000    102.685631
+   416      0.000000    103.985146
+   417      0.000000    104.092483
+   418      0.000000    104.236170
+   419      0.000000    104.316932
+   420      0.000000    104.438151
+   424      0.000000    106.532847
+   430      0.000000    107.922301
+   434      0.000000    108.535264
+   444      0.000000    112.133725
+   447      0.000000    112.825070
+   452      0.000000    114.690786
+   453      0.000000    114.737059
+   454      0.000000    114.808185
+   455      0.000000    115.086350
+   463      0.000000    117.441590
+   466      0.000000    118.060336
+   467      0.000000    118.183923
+   474      0.000000    120.427549
+   475      0.000000    120.799667
+   480      0.000000    122.761794
+   481      0.000000    124.425108
+   483      0.000000    125.986923
+   487      0.000000    127.700661
+   488      0.000000    127.959086
+   489      0.000000    128.014381
+   493      0.000000    130.050801
+   496      0.000000    130.977999
+   499      0.000000    132.246780
+   500      0.000000    133.033686
+   502      0.000000    134.084390
+   504      0.000000    135.572143
+   514      0.000000    139.775454
+   522      0.000000    146.014453
+ Total number of pi orbitals:   134
+ Total number of electrons in pi orbitals:   14.000000
+ Total number of inner electrons:    28
+ 
+ How to deal with these orbitals?
+ 0 Do nothing
+ 1 Set occupation number of these pi orbitals to zero
+ 2 Set occupation number of all other orbitals to zero
+ 3 Set occupation number of valence pi orbitals to zero
+ 4 Set occupation number of all except for valence pi orbitals to zero
+ Done!
+ Updating density matrix...
+ Density matrix has been updated
+ 
+ 
+               ============ Other functions (Part 1) ============ 
+ 0 Return
+ 1 Draw scatter graph between two functions and generate their cube files
+ 2 Export .pdb/.xyz/.wfn/.wfx/.molden/.fch/.47 files or input file of QC codes
+ 3 Calculate molecular van der Waals Volume
+ 4 Integrate a function in whole space
+ 5 Show overlap integral between alpha and beta orbitals
+ 6 Monitor SCF convergence process of Gaussian
+ 8 Generate Gaussian input file with initial guess from fragment wavefunctions
+ 9 Evaluate interatomic connectivity and atomic coordination number
+ 11 Calculate overlap and centroid distance between two orbitals
+ 12 Perform biorthogonalization between alpha and beta orbitals
+ 13 Calculate HOMA and Bird aromaticity index
+ 14 Calculate LOLIPOP (LOL Integrated Pi Over Plane)
+ 15 Calculate intermolecular orbital overlap
+ 16 Calculate various quantities in conceptual density functional theory
+ 18 Yoshizawa's electron transport route analysis
+ 19 Generate promolecular .wfn file from fragment wavefunctions
+ 20 Calculate Hellmann-Feynman forces
+ 21 Calculate properties based on geometry information for specific atoms
+ 22 Detect pi orbitals, set occupation numbers and calculate pi composition
+ 23 Fit function distribution to atomic value
+ 24 Obtain NICS_ZZ value for non-planar or tilted system
+ 
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point
+ 2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and atomic charges
+ 8 Orbital composition analysis
+ 9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and extended CDA (ECDA)
+ 17 Basin analysis
+ 18 Electron excitation analysis
+ 19 Orbital localization analysis
+ 20 Visual study of weak interaction
+ 21 Energy decomposition analysis
+ 100 Other functions (Part1)        200 Other functions (Part2)
+ 
+            ================ Bond order analysis ===============
+ -1 Define fragment 1 and 2 for option 1,3,4,7,8 (to be defined)
+ 0 Return
+ 1 Mayer bond order analysis
+ 2 Multicenter bond order analysis (up to 12 centers)
+ -2 Multicenter bond order analysis in NAO basis (up to 12 centers)
+ 3 Wiberg bond order analysis in Lowdin orthogonalized basis
+ 4 Mulliken bond order analysis
+ 5 Decompose Mulliken bond order between two atoms to orbital contributions
+ 6 Orbital occupancy-perturbed Mayer bond order
+ 7 Fuzzy bond order analysis (FBO)
+ 8 Laplacian bond order (LBO)
+ 9 Decompose Wiberg bond order in NAO basis as atomic orbital pair contribution
+ Please wait...
+ 
+ Input atom indices, e.g. 3,4,7,8,10   (2~12 centers)
+ Input -3/-4/-5/-6 can search all possible three/four/five/six-center bonds
+ Input 0 can return to upper level menu
+ 
+ Input magnitude threshold for printing bond orders, e.g. 0.03
+ Note: The search may be not exhaustive. Please wait...

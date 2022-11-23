@@ -1,0 +1,152 @@
+ Multiwfn -- A Multifunctional Wavefunction Analyzer
+ Version 3.6, release date: 2019-May-21
+ Project leader: Tian Lu (Beijing Kein Research Center for Natural Sciences)
+ Below paper *MUST BE CITED* if Multiwfn is utilized in your work:
+          Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580-592 (2012)
+ Multiwfn official website: http://sobereva.com/multiwfn
+ Multiwfn English forum: http://sobereva.com/wfnbbs
+ Multiwfn Chinese forum: http://bbs.keinsci.com/wfn
+ ( The number of threads: 12   Current date: 2020-01-06   Time: 08:15:38 )
+ 
+ Please wait...
+ Loading various information of the wavefunction
+ The highest angular moment basis functions is F
+ Loading basis set definition...
+ Loading orbitals...
+ Converting basis function information to GTF information...
+ Generating overlap matrix...
+ Back converting basis function information from Cartesian to spherical type...
+ Generating density matrix based on SCF orbitals...
+ 
+ Total/Alpha/Beta electrons:    156.0000     78.0000     78.0000
+ Net charge:     0.00000      Expected multiplicity:    1
+ Atoms:     36,  Basis functions:    888,  GTFs:   1452
+ Total energy:    -922.188315530444 Hartree,   Virial ratio:  2.00661470
+ This is a restricted single-determinant wavefunction
+ Orbitals from 1 to    78 are occupied
+ Title line of this file: pvtz_rnene
+
+ Loaded pvtz_coronene.fchk successfully!
+ Formula: H12 C24 
+ Molecule weight:       300.35208
+ 
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point
+ 2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and atomic charges
+ 8 Orbital composition analysis
+ 9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and extended CDA (ECDA)
+ 17 Basin analysis
+ 18 Electron excitation analysis
+ 19 Orbital localization analysis
+ 20 Visual study of weak interaction
+ 21 Energy decomposition analysis
+ 100 Other functions (Part1)        200 Other functions (Part2)
+ 
+               ============ Other functions (Part 1) ============ 
+ 0 Return
+ 1 Draw scatter graph between two functions and generate their cube files
+ 2 Export .pdb/.xyz/.wfn/.wfx/.molden/.fch/.47 files or input file of QC codes
+ 3 Calculate molecular van der Waals Volume
+ 4 Integrate a function in whole space
+ 5 Show overlap integral between alpha and beta orbitals
+ 6 Monitor SCF convergence process of Gaussian
+ 8 Generate Gaussian input file with initial guess from fragment wavefunctions
+ 9 Evaluate interatomic connectivity and atomic coordination number
+ 11 Calculate overlap and centroid distance between two orbitals
+ 12 Perform biorthogonalization between alpha and beta orbitals
+ 13 Calculate HOMA and Bird aromaticity index
+ 14 Calculate LOLIPOP (LOL Integrated Pi Over Plane)
+ 15 Calculate intermolecular orbital overlap
+ 16 Calculate various quantities in conceptual density functional theory
+ 18 Yoshizawa's electron transport route analysis
+ 19 Generate promolecular .wfn file from fragment wavefunctions
+ 20 Calculate Hellmann-Feynman forces
+ 21 Calculate properties based on geometry information for specific atoms
+ 22 Detect pi orbitals, set occupation numbers and calculate pi composition
+ 23 Fit function distribution to atomic value
+ 24 Obtain NICS_ZZ value for non-planar or tilted system
+ Input the indices of the atoms to be taken into account
+ e.g. 1,3-6,8,10-11 means the atoms 1,3,4,5,6,8,10,11 will be considered
+ Input "all" will analyze the whole system
+ Input "size" will report size information of the whole system
+ Input q can exit
+ Mass of these atoms:     12.010700 amu
+ Geometry center (X/Y/Z):   -3.40909561    1.52457788   -0.00001477 Angstrom
+ Center of mass (X/Y/Z):    -3.40909561    1.52457788   -0.00001477 Angstrom
+ Sum of nuclear charges:          6.00000000
+ Center of nuclear charges (X/Y/Z):   -3.4090956    1.5245779   -0.0000148 Ang
+ Dipole from nuclear charges (Norm): 0.42343E+02 a.u.  0.10762E+03 Debye
+ Dipole from nuclear charges (X/Y/Z):-0.38654E+02 0.17286E+02-0.16742E-03 a.u.
+ Electrostatic interaction energy between nuclear charges:
+  0.0000000000E+00 a.u.  0.0000000000E+00 kcal/mol  0.0000000000E+00 KJ/mol
+ Radius of gyration:    0.00000000 Angstrom
+ Minimum X is   -6.44225658 Angstrom, at atom     1(C )
+ Minimum Y is    2.88103445 Angstrom, at atom     1(C )
+ Minimum Z is   -0.00002790 Angstrom, at atom     1(C )
+ Maximum X is   -6.44225658 Angstrom, at atom     1(C )
+ Maximum Y is    2.88103445 Angstrom, at atom     1(C )
+ Maximum Z is   -0.00002790 Angstrom, at atom     1(C )
+ The atom closest to geometry center is       1(C )  Dist:    0.000000 Angstrom
+ The atom farthest to geometry center is      1(C )  Dist:    0.000000 Angstrom
+ 
+       ************ Moments of inertia tensor (amu*Angstrom^2) ************
+             1             2             3      
+     1  0.000000D+00  0.000000D+00  0.000000D+00
+     2  0.000000D+00  0.000000D+00  0.000000D+00
+     3  0.000000D+00  0.000000D+00  0.000000D+00
+ The moments of inertia relative to X,Y,Z axes (amu*Angstrom^2):
+  0.00000000E+00  0.00000000E+00  0.00000000E+00
+ Rotational constant relative to X,Y,Z axes (GHz):
+        Infinity        Infinity        Infinity
+          ************ Principal axes (each column vector) ************
+             1             2             3      
+     1  0.100000D+01  0.000000D+00  0.000000D+00
+     2  0.000000D+00  0.100000D+01  0.000000D+00
+     3  0.000000D+00  0.000000D+00  0.100000D+01
+ The moments of inertia relative to principal axes (amu*Angstrom^2): 
+  0.00000000E+00  0.00000000E+00  0.00000000E+00
+ Rotational constant relative to principal axes (GHz):
+        Infinity        Infinity        Infinity
+ 
+ Input the indices of the atoms to be taken into account
+ e.g. 1,3-6,8,10-11 means the atoms 1,3,4,5,6,8,10,11 will be considered
+ Input "all" will analyze the whole system
+ Input "size" will report size information of the whole system
+ Input q can exit
+ 
+               ============ Other functions (Part 1) ============ 
+ 0 Return
+ 1 Draw scatter graph between two functions and generate their cube files
+ 2 Export .pdb/.xyz/.wfn/.wfx/.molden/.fch/.47 files or input file of QC codes
+ 3 Calculate molecular van der Waals Volume
+ 4 Integrate a function in whole space
+ 5 Show overlap integral between alpha and beta orbitals
+ 6 Monitor SCF convergence process of Gaussian
+ 8 Generate Gaussian input file with initial guess from fragment wavefunctions
+ 9 Evaluate interatomic connectivity and atomic coordination number
+ 11 Calculate overlap and centroid distance between two orbitals
+ 12 Perform biorthogonalization between alpha and beta orbitals
+ 13 Calculate HOMA and Bird aromaticity index
+ 14 Calculate LOLIPOP (LOL Integrated Pi Over Plane)
+ 15 Calculate intermolecular orbital overlap
+ 16 Calculate various quantities in conceptual density functional theory
+ 18 Yoshizawa's electron transport route analysis
+ 19 Generate promolecular .wfn file from fragment wavefunctions
+ 20 Calculate Hellmann-Feynman forces
+ 21 Calculate properties based on geometry information for specific atoms
+ 22 Detect pi orbitals, set occupation numbers and calculate pi composition
+ 23 Fit function distribution to atomic value
+ 24 Obtain NICS_ZZ value for non-planar or tilted system

@@ -1,0 +1,111 @@
+ Multiwfn -- A Multifunctional Wavefunction Analyzer
+ Version 3.8(dev), release date: 2021-Aug-25
+ Developer: Tian Lu (Beijing Kein Research Center for Natural Sciences)
+ Below paper ***MUST BE CITED*** if Multiwfn is utilized in your work:
+          Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580-592 (2012)
+ See "How to cite Multiwfn.pdf" in Multiwfn binary package for more information
+ Multiwfn official website: http://sobereva.com/multiwfn
+ Multiwfn English forum: http://sobereva.com/wfnbbs
+ Multiwfn Chinese forum: http://bbs.keinsci.com/wfn
+
+ ( Number of parallel threads:  12  Current date: 2021-09-13  Time: 11:48:53 )
+
+ Warning: You should set "KMP_STACKSIZE" environment variable as mentioned in Section 2.1.2 of Multiwfn manual!
+ 
+ Please wait...
+ Loading various information of the wavefunction
+ The highest angular moment basis functions is F
+ Loading basis set definition...
+ Loading orbitals...
+ Converting basis function information to GTF information...
+ Back converting basis function information from Cartesian to spherical type...
+ Generating density matrix based on SCF orbitals...
+ Generating overlap matrix...
+ 
+ Total/Alpha/Beta electrons:    156.0000     78.0000     78.0000
+ Net charge:     0.00000      Expected multiplicity:    1
+ Atoms:     36,  Basis functions:    888,  GTFs:   1452
+ Total energy:    -922.188315530444 Hartree,   Virial ratio:  2.00661470
+ This is a restricted single-determinant wavefunction
+ Orbitals from 1 to    78 are occupied
+ Title line of this file: pvtz_rnene
+
+ Loaded pvtz_coronene.fchk successfully!
+ Formula: H12 C24 
+ Molecule weight:       300.35295 Da
+ Point group: D6h
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)
+ 
+               ============ Other functions (Part 1) ============ 
+ 0 Return
+ 1 Draw scatter graph between two functions and generate their cube files
+ 2 Export various files (mwfn/pdb/xyz/wfn/wfx/molden/fch/47/mkl...) or generate input file of quantum chemistry programs
+ 3 Calculate molecular van der Waals Volume
+ 4 Integrate a function in whole space
+ 5 Show overlap integral between alpha and beta orbitals
+ 6 Monitor SCF convergence process of Gaussian
+ 8 Generate Gaussian input file with initial guess from fragment wavefunctions
+ 9 Evaluate interatomic connectivity and atomic coordination number
+ 11 Calculate overlap and centroid distance between two orbitals
+ 12 Biorthogonalization between alpha and beta orbitals
+ 13 Calculate HOMA and Bird aromaticity index
+ 14 Calculate LOLIPOP (LOL Integrated Pi Over Plane)
+ 15 Calculate intermolecular orbital overlap
+ 17 Generate Fock/KS matrix based on orbital energies and coefficients
+ 18 Yoshizawa's electron transport route analysis
+ 19 Generate promolecular .wfn file from fragment wavefunctions
+ 20 Calculate Hellmann-Feynman forces
+ 21 Calculate properties based on geometry information for specific atoms
+ 22 Detect pi orbitals, set occupation numbers and calculate pi composition
+ 23 Fit function distribution to atomic value
+ 24 Obtain NICS_ZZ value for non-planar or tilted system
+ 
+ -1 Return
+ 0 Start calculation for HOMA!
+ 1 Adjust parameters for HOMA calculation
+ 2 Start calculation for Bird aromaticity index!
+ 3 Adjust a and b parameters for Bird aromaticity index calculation
+ 4 Adjust reference V parameter for Bird aromaticity index calculation
+ Current reference bond length (Angstrom) and sigma parameters:
+ B -C :      1.4235    104.5070
+ B -N :      1.4020     72.0300
+ C -C :      1.3880    257.7000
+ C -N :      1.3340     93.5200
+ C -O :      1.2650    157.3800
+ C -P :      1.6980    118.9100
+ C -S :      1.6770     94.0900
+ N -N :      1.3090    130.3300
+ N -O :      1.2480     57.2100
+ 
+ Input indices of the atoms involved in the ring, e.g. 1,5,6,7,8,12
+ (Input q can return)
+ 
+         Atom pair         Contribution  Bond length(Angstrom)
+    1(C )  --    1(C ):    -496.470389        0.000000
+ HOMA value is -495.470389
+ 
+ Input indices of the atoms involved in the ring, e.g. 1,5,6,7,8,12
+ (Input q can return)

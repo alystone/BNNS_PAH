@@ -1,0 +1,494 @@
+ Multiwfn -- A Multifunctional Wavefunction Analyzer
+ Version 3.8(dev), release date: 2021-Aug-25
+ Developer: Tian Lu (Beijing Kein Research Center for Natural Sciences)
+ Below paper ***MUST BE CITED*** if Multiwfn is utilized in your work:
+          Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580-592 (2012)
+ See "How to cite Multiwfn.pdf" in Multiwfn binary package for more information
+ Multiwfn official website: http://sobereva.com/multiwfn
+ Multiwfn English forum: http://sobereva.com/wfnbbs
+ Multiwfn Chinese forum: http://bbs.keinsci.com/wfn
+
+ ( Number of parallel threads:  12  Current date: 2022-03-28  Time: 19:49:50 )
+
+ Warning: You should set "KMP_STACKSIZE" environment variable as mentioned in Section 2.1.2 of Multiwfn manual!
+ 
+ Please wait...
+ Loading various information of the wavefunction
+ The highest angular moment basis functions is F
+ Loading basis set definition...
+ Loading orbitals...
+ Converting basis function information to GTF information...
+ Back converting basis function information from Cartesian to spherical type...
+ Generating density matrix based on SCF orbitals...
+ Generating overlap matrix...
+ 
+ Total/Alpha/Beta electrons:     42.0000     21.0000     21.0000
+ Net charge:     0.00000      Expected multiplicity:    1
+ Atoms:     12,  Basis functions:    264,  GTFs:    414
+ Total energy:    -242.769923889647 Hartree,   Virial ratio:  2.00706759
+ This is a restricted single-determinant wavefunction
+ Orbitals from 1 to    21 are occupied
+ Title line of this file: benz
+
+ Loaded pvtz_benzBN.fchk successfully!
+ Formula: H6 B3 N3 
+ Molecule weight:        80.50084 Da
+ Point group: D3h
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)
+ 
+      ============== Population analysis and atomic charges ==============
+ -2 Calculate interaction energy between fragments based on atomic charges
+ -1 Define fragment
+ 0 Return
+ 1 Hirshfeld atomic charge
+ 2 Voronoi deformation density (VDD) atom population
+ 5 Mulliken atom & basis function population analysis
+ 6 Lowdin atom & basis function population analysis
+ 7 Modified Mulliken atom population defined by Ros & Schuit (SCPA)
+ 8 Modified Mulliken atom population defined by Stout & Politzer
+ 9 Modified Mulliken atom population defined by Bickelhaupt
+ 10 Becke atomic charge with atomic dipole moment correction
+ 11 Atomic dipole corrected Hirshfeld atomic charge (ADCH) (recommended)
+ 12 CHELPG ESP fitting atomic charge
+ 13 Merz-Kollmann (MK) ESP fitting atomic charge
+ 14 AIM atomic charge
+ 15 Hirshfeld-I atomic charge
+ 16 CM5 atomic charge    -16 Generate 1.2*CM5 atomic charge
+ 17 Electronegativity Equalization Method (EEM) atomic charge
+ 18 Restrained ElectroStatic Potential (RESP) atomic charge
+ 19 Gasteiger (PEOE) charge
+ 
+               ---------- Mulliken population analysis ----------
+ -1 Choose output destination, current: Screen
+ 0 Return
+ 1 Output Mulliken population and atomic charges
+ 2 Output gross atomic population matrix and decompose it
+ 3 Output gross basis function population matrix and decompose it
+ 4 Output orbital contributions to atomic populations to atmpopdcp.txt
+ Population of basis functions:
+  Basis Type    Atom    Shell   Population
+     1   S        1(B )    1      1.96343
+     2   S        1(B )    2      0.68334
+     3   S        1(B )    3      0.15718
+     4   S        1(B )    4      0.19777
+     5   X        1(B )    5      0.28903
+     6   Y        1(B )    5      0.29886
+     7   Z        1(B )    5      0.11068
+     8   X        1(B )    6      0.31652
+     9   Y        1(B )    6      0.40631
+    10   Z        1(B )    6      0.19913
+    11   X        1(B )    7      0.02310
+    12   Y        1(B )    7      0.05516
+    13   Z        1(B )    7      0.10057
+    14   D 0      1(B )    8      0.00667
+    15   D+1      1(B )    8      0.01127
+    16   D-1      1(B )    8      0.00511
+    17   D+2      1(B )    8      0.02177
+    18   D-2      1(B )    8      0.02178
+    19   D 0      1(B )    9      0.00287
+    20   D+1      1(B )    9      0.02788
+    21   D-1      1(B )    9      0.01033
+    22   D+2      1(B )    9      0.03628
+    23   D-2      1(B )    9      0.03547
+    24   F 0      1(B )   10      0.00339
+    25   F+1      1(B )   10      0.00101
+    26   F-1      1(B )   10      0.00124
+    27   F+2      1(B )   10      0.00253
+    28   F-2      1(B )   10      0.00266
+    29   F+3      1(B )   10      0.00509
+    30   F-3      1(B )   10      0.00572
+    31   S        2(H )   11      0.27447
+    32   S        2(H )   12      0.47302
+    33   S        2(H )   13      0.25658
+    34   X        2(H )   14      0.00074
+    35   Y        2(H )   14      0.00282
+    36   Z        2(H )   14      0.00025
+    37   X        2(H )   15      0.00163
+    38   Y        2(H )   15     -0.00333
+    39   Z        2(H )   15      0.00182
+    40   D 0      2(H )   16     -0.00001
+    41   D+1      2(H )   16      0.00004
+    42   D-1      2(H )   16      0.00017
+    43   D+2      2(H )   16      0.00016
+    44   D-2      2(H )   16      0.00018
+    45   S        3(B )   17      1.96343
+    46   S        3(B )   18      0.68339
+    47   S        3(B )   19      0.15720
+    48   S        3(B )   20      0.19780
+    49   X        3(B )   21      0.30056
+    50   Y        3(B )   21      0.28735
+    51   Z        3(B )   21      0.11068
+    52   X        3(B )   22      0.42130
+    53   Y        3(B )   22      0.30157
+    54   Z        3(B )   22      0.19909
+    55   X        3(B )   23      0.06043
+    56   Y        3(B )   23      0.01779
+    57   Z        3(B )   23      0.10060
+    58   D 0      3(B )   24      0.00667
+    59   D+1      3(B )   24      0.00409
+    60   D-1      3(B )   24      0.01229
+    61   D+2      3(B )   24      0.02172
+    62   D-2      3(B )   24      0.02184
+    63   D 0      3(B )   25      0.00287
+    64   D+1      3(B )   25      0.00738
+    65   D-1      3(B )   25      0.03084
+    66   D+2      3(B )   25      0.04486
+    67   D-2      3(B )   25      0.02689
+    68   F 0      3(B )   26      0.00338
+    69   F+1      3(B )   26      0.00128
+    70   F-1      3(B )   26      0.00097
+    71   F+2      3(B )   26      0.00111
+    72   F-2      3(B )   26      0.00409
+    73   F+3      3(B )   26      0.00509
+    74   F-3      3(B )   26      0.00572
+    75   S        4(H )   27      0.27450
+    76   S        4(H )   28      0.47294
+    77   S        4(H )   29      0.25654
+    78   X        4(H )   30      0.00317
+    79   Y        4(H )   30      0.00040
+    80   Z        4(H )   30      0.00026
+    81   X        4(H )   31     -0.00416
+    82   Y        4(H )   31      0.00246
+    83   Z        4(H )   31      0.00182
+    84   D 0      4(H )   32     -0.00001
+    85   D+1      4(H )   32      0.00020
+    86   D-1      4(H )   32      0.00002
+    87   D+2      4(H )   32     -0.00011
+    88   D-2      4(H )   32      0.00045
+    89   S        5(B )   33      1.96343
+    90   S        5(B )   34      0.68339
+    91   S        5(B )   35      0.15720
+    92   S        5(B )   36      0.19783
+    93   X        5(B )   37      0.29229
+    94   Y        5(B )   37      0.29562
+    95   Z        5(B )   37      0.11070
+    96   X        5(B )   38      0.34630
+    97   Y        5(B )   38      0.37637
+    98   Z        5(B )   38      0.19906
+    99   X        5(B )   39      0.03371
+   100   Y        5(B )   39      0.04448
+   101   Z        5(B )   39      0.10059
+   102   D 0      5(B )   40      0.00667
+   103   D+1      5(B )   40      0.00922
+   104   D-1      5(B )   40      0.00716
+   105   D+2      5(B )   40      0.02184
+   106   D-2      5(B )   40      0.02172
+   107   D 0      5(B )   41      0.00287
+   108   D+1      5(B )   41      0.02203
+   109   D-1      5(B )   41      0.01615
+   110   D+2      5(B )   41      0.02650
+   111   D-2      5(B )   41      0.04517
+   112   F 0      5(B )   42      0.00338
+   113   F+1      5(B )   42      0.00108
+   114   F-1      5(B )   42      0.00116
+   115   F+2      5(B )   42      0.00415
+   116   F-2      5(B )   42      0.00105
+   117   F+3      5(B )   42      0.00509
+   118   F-3      5(B )   42      0.00572
+   119   S        6(N )   43      1.95634
+   120   S        6(N )   44      0.87091
+   121   S        6(N )   45      0.21623
+   122   S        6(N )   46      0.34261
+   123   X        6(N )   47      0.34036
+   124   Y        6(N )   47      0.37317
+   125   Z        6(N )   47      0.36480
+   126   X        6(N )   48      0.56288
+   127   Y        6(N )   48      0.63319
+   128   Z        6(N )   48      0.63836
+   129   X        6(N )   49      0.17797
+   130   Y        6(N )   49      0.15033
+   131   Z        6(N )   49      0.48613
+   132   D 0      6(N )   50      0.00051
+   133   D+1      6(N )   50      0.00006
+   134   D-1      6(N )   50      0.00014
+   135   D+2      6(N )   50      0.00181
+   136   D-2      6(N )   50      0.00101
+   137   D 0      6(N )   51      0.00169
+   138   D+1      6(N )   51      0.00193
+   139   D-1      6(N )   51      0.00292
+   140   D+2      6(N )   51      0.01234
+   141   D-2      6(N )   51      0.00474
+   142   F 0      6(N )   52      0.00045
+   143   F+1      6(N )   52      0.00029
+   144   F-1      6(N )   52      0.00030
+   145   F+2      6(N )   52      0.00007
+   146   F-2      6(N )   52      0.00012
+   147   F+3      6(N )   52      0.00031
+   148   F-3      6(N )   52      0.00052
+   149   S        7(N )   53      1.95634
+   150   S        7(N )   54      0.87092
+   151   S        7(N )   55      0.21624
+   152   S        7(N )   56      0.34267
+   153   X        7(N )   57      0.36086
+   154   Y        7(N )   57      0.35261
+   155   Z        7(N )   57      0.36481
+   156   X        7(N )   58      0.60689
+   157   Y        7(N )   58      0.58919
+   158   Z        7(N )   58      0.63838
+   159   X        7(N )   59      0.16078
+   160   Y        7(N )   59      0.16752
+   161   Z        7(N )   59      0.48609
+   162   D 0      7(N )   60      0.00051
+   163   D+1      7(N )   60      0.00011
+   164   D-1      7(N )   60      0.00009
+   165   D+2      7(N )   60      0.00099
+   166   D-2      7(N )   60      0.00183
+   167   D 0      7(N )   61      0.00169
+   168   D+1      7(N )   61      0.00255
+   169   D-1      7(N )   61      0.00230
+   170   D+2      7(N )   61      0.00459
+   171   D-2      7(N )   61      0.01249
+   172   F 0      7(N )   62      0.00045
+   173   F+1      7(N )   62      0.00030
+   174   F-1      7(N )   62      0.00030
+   175   F+2      7(N )   62      0.00012
+   176   F-2      7(N )   62      0.00007
+   177   F+3      7(N )   62      0.00031
+   178   F-3      7(N )   62      0.00052
+   179   S        8(H )   63      0.27477
+   180   S        8(H )   64      0.43164
+   181   S        8(H )   65      0.06829
+   182   X        8(H )   66      0.00530
+   183   Y        8(H )   66      0.00735
+   184   Z        8(H )   66      0.00291
+   185   X        8(H )   67      0.01420
+   186   Y        8(H )   67      0.01271
+   187   Z        8(H )   67      0.02426
+   188   D 0      8(H )   68      0.00041
+   189   D+1      8(H )   68      0.00077
+   190   D-1      8(H )   68      0.00127
+   191   D+2      8(H )   68      0.00155
+   192   D-2      8(H )   68      0.00135
+   193   S        9(N )   69      1.95634
+   194   S        9(N )   70      0.87092
+   195   S        9(N )   71      0.21623
+   196   S        9(N )   72      0.34265
+   197   X        9(N )   73      0.36903
+   198   Y        9(N )   73      0.34445
+   199   Z        9(N )   73      0.36481
+   200   X        9(N )   74      0.62440
+   201   Y        9(N )   74      0.57166
+   202   Z        9(N )   74      0.63840
+   203   X        9(N )   75      0.15374
+   204   Y        9(N )   75      0.17449
+   205   Z        9(N )   75      0.48608
+   206   D 0      9(N )   76      0.00051
+   207   D+1      9(N )   76      0.00013
+   208   D-1      9(N )   76      0.00007
+   209   D+2      9(N )   76      0.00143
+   210   D-2      9(N )   76      0.00139
+   211   D 0      9(N )   77      0.00169
+   212   D+1      9(N )   77      0.00280
+   213   D-1      9(N )   77      0.00205
+   214   D+2      9(N )   77      0.00871
+   215   D-2      9(N )   77      0.00836
+   216   F 0      9(N )   78      0.00045
+   217   F+1      9(N )   78      0.00030
+   218   F-1      9(N )   78      0.00029
+   219   F+2      9(N )   78      0.00009
+   220   F-2      9(N )   78      0.00010
+   221   F+3      9(N )   78      0.00031
+   222   F-3      9(N )   78      0.00052
+   223   S       10(H )   79      0.27477
+   224   S       10(H )   80      0.43170
+   225   S       10(H )   81      0.06831
+   226   X       10(H )   82      0.00330
+   227   Y       10(H )   82      0.00935
+   228   Z       10(H )   82      0.00291
+   229   X       10(H )   83      0.01568
+   230   Y       10(H )   83      0.01122
+   231   Z       10(H )   83      0.02426
+   232   D 0     10(H )   84      0.00041
+   233   D+1     10(H )   84      0.00029
+   234   D-1     10(H )   84      0.00175
+   235   D+2     10(H )   84      0.00145
+   236   D-2     10(H )   84      0.00146
+   237   S       11(H )   85      0.27476
+   238   S       11(H )   86      0.43166
+   239   S       11(H )   87      0.06830
+   240   X       11(H )   88      0.01036
+   241   Y       11(H )   88      0.00229
+   242   Z       11(H )   88      0.00291
+   243   X       11(H )   89      0.01049
+   244   Y       11(H )   89      0.01642
+   245   Z       11(H )   89      0.02425
+   246   D 0     11(H )   90      0.00041
+   247   D+1     11(H )   90      0.00200
+   248   D-1     11(H )   90      0.00004
+   249   D+2     11(H )   90      0.00136
+   250   D-2     11(H )   90      0.00155
+   251   S       12(H )   91      0.27445
+   252   S       12(H )   92      0.47313
+   253   S       12(H )   93      0.25673
+   254   X       12(H )   94      0.00143
+   255   Y       12(H )   94      0.00213
+   256   Z       12(H )   94      0.00026
+   257   X       12(H )   95     -0.00002
+   258   Y       12(H )   95     -0.00168
+   259   Z       12(H )   95      0.00181
+   260   D 0     12(H )   96     -0.00001
+   261   D+1     12(H )   96      0.00009
+   262   D-1     12(H )   96      0.00013
+   263   D+2     12(H )   96      0.00046
+   264   D-2     12(H )   96     -0.00013
+ 
+ Population of shells of basis functions:
+ Shell     1 Type: S    in atom    1(B ) :  1.96343
+ Shell     2 Type: S    in atom    1(B ) :  0.68334
+ Shell     3 Type: S    in atom    1(B ) :  0.15718
+ Shell     4 Type: S    in atom    1(B ) :  0.19777
+ Shell     5 Type: P    in atom    1(B ) :  0.69858
+ Shell     6 Type: P    in atom    1(B ) :  0.92196
+ Shell     7 Type: P    in atom    1(B ) :  0.17883
+ Shell     8 Type: D    in atom    1(B ) :  0.06660
+ Shell     9 Type: D    in atom    1(B ) :  0.11283
+ Shell    10 Type: F    in atom    1(B ) :  0.02164
+ Shell    11 Type: S    in atom    2(H ) :  0.27447
+ Shell    12 Type: S    in atom    2(H ) :  0.47302
+ Shell    13 Type: S    in atom    2(H ) :  0.25658
+ Shell    14 Type: P    in atom    2(H ) :  0.00382
+ Shell    15 Type: P    in atom    2(H ) :  0.00012
+ Shell    16 Type: D    in atom    2(H ) :  0.00054
+ Shell    17 Type: S    in atom    3(B ) :  1.96343
+ Shell    18 Type: S    in atom    3(B ) :  0.68339
+ Shell    19 Type: S    in atom    3(B ) :  0.15720
+ Shell    20 Type: S    in atom    3(B ) :  0.19780
+ Shell    21 Type: P    in atom    3(B ) :  0.69859
+ Shell    22 Type: P    in atom    3(B ) :  0.92195
+ Shell    23 Type: P    in atom    3(B ) :  0.17882
+ Shell    24 Type: D    in atom    3(B ) :  0.06660
+ Shell    25 Type: D    in atom    3(B ) :  0.11283
+ Shell    26 Type: F    in atom    3(B ) :  0.02164
+ Shell    27 Type: S    in atom    4(H ) :  0.27450
+ Shell    28 Type: S    in atom    4(H ) :  0.47294
+ Shell    29 Type: S    in atom    4(H ) :  0.25654
+ Shell    30 Type: P    in atom    4(H ) :  0.00382
+ Shell    31 Type: P    in atom    4(H ) :  0.00011
+ Shell    32 Type: D    in atom    4(H ) :  0.00054
+ Shell    33 Type: S    in atom    5(B ) :  1.96343
+ Shell    34 Type: S    in atom    5(B ) :  0.68339
+ Shell    35 Type: S    in atom    5(B ) :  0.15720
+ Shell    36 Type: S    in atom    5(B ) :  0.19783
+ Shell    37 Type: P    in atom    5(B ) :  0.69862
+ Shell    38 Type: P    in atom    5(B ) :  0.92173
+ Shell    39 Type: P    in atom    5(B ) :  0.17878
+ Shell    40 Type: D    in atom    5(B ) :  0.06661
+ Shell    41 Type: D    in atom    5(B ) :  0.11273
+ Shell    42 Type: F    in atom    5(B ) :  0.02163
+ Shell    43 Type: S    in atom    6(N ) :  1.95634
+ Shell    44 Type: S    in atom    6(N ) :  0.87091
+ Shell    45 Type: S    in atom    6(N ) :  0.21623
+ Shell    46 Type: S    in atom    6(N ) :  0.34261
+ Shell    47 Type: P    in atom    6(N ) :  1.07834
+ Shell    48 Type: P    in atom    6(N ) :  1.83444
+ Shell    49 Type: P    in atom    6(N ) :  0.81442
+ Shell    50 Type: D    in atom    6(N ) :  0.00354
+ Shell    51 Type: D    in atom    6(N ) :  0.02362
+ Shell    52 Type: F    in atom    6(N ) :  0.00207
+ Shell    53 Type: S    in atom    7(N ) :  1.95634
+ Shell    54 Type: S    in atom    7(N ) :  0.87092
+ Shell    55 Type: S    in atom    7(N ) :  0.21624
+ Shell    56 Type: S    in atom    7(N ) :  0.34267
+ Shell    57 Type: P    in atom    7(N ) :  1.07829
+ Shell    58 Type: P    in atom    7(N ) :  1.83445
+ Shell    59 Type: P    in atom    7(N ) :  0.81439
+ Shell    60 Type: D    in atom    7(N ) :  0.00354
+ Shell    61 Type: D    in atom    7(N ) :  0.02360
+ Shell    62 Type: F    in atom    7(N ) :  0.00207
+ Shell    63 Type: S    in atom    8(H ) :  0.27477
+ Shell    64 Type: S    in atom    8(H ) :  0.43164
+ Shell    65 Type: S    in atom    8(H ) :  0.06829
+ Shell    66 Type: P    in atom    8(H ) :  0.01556
+ Shell    67 Type: P    in atom    8(H ) :  0.05117
+ Shell    68 Type: D    in atom    8(H ) :  0.00535
+ Shell    69 Type: S    in atom    9(N ) :  1.95634
+ Shell    70 Type: S    in atom    9(N ) :  0.87092
+ Shell    71 Type: S    in atom    9(N ) :  0.21623
+ Shell    72 Type: S    in atom    9(N ) :  0.34265
+ Shell    73 Type: P    in atom    9(N ) :  1.07829
+ Shell    74 Type: P    in atom    9(N ) :  1.83446
+ Shell    75 Type: P    in atom    9(N ) :  0.81431
+ Shell    76 Type: D    in atom    9(N ) :  0.00354
+ Shell    77 Type: D    in atom    9(N ) :  0.02361
+ Shell    78 Type: F    in atom    9(N ) :  0.00207
+ Shell    79 Type: S    in atom   10(H ) :  0.27477
+ Shell    80 Type: S    in atom   10(H ) :  0.43170
+ Shell    81 Type: S    in atom   10(H ) :  0.06831
+ Shell    82 Type: P    in atom   10(H ) :  0.01556
+ Shell    83 Type: P    in atom   10(H ) :  0.05116
+ Shell    84 Type: D    in atom   10(H ) :  0.00535
+ Shell    85 Type: S    in atom   11(H ) :  0.27476
+ Shell    86 Type: S    in atom   11(H ) :  0.43166
+ Shell    87 Type: S    in atom   11(H ) :  0.06830
+ Shell    88 Type: P    in atom   11(H ) :  0.01556
+ Shell    89 Type: P    in atom   11(H ) :  0.05115
+ Shell    90 Type: D    in atom   11(H ) :  0.00535
+ Shell    91 Type: S    in atom   12(H ) :  0.27445
+ Shell    92 Type: S    in atom   12(H ) :  0.47313
+ Shell    93 Type: S    in atom   12(H ) :  0.25673
+ Shell    94 Type: P    in atom   12(H ) :  0.00382
+ Shell    95 Type: P    in atom   12(H ) :  0.00012
+ Shell    96 Type: D    in atom   12(H ) :  0.00054
+ 
+ Population of each type of angular moment orbitals:
+ Atom     1(B ) s: 3.0017 p: 1.7994 d: 0.1794 f: 0.0216 g: 0.0000 h: 0.0000
+ Atom     2(H ) s: 1.0041 p: 0.0039 d: 0.0005 f: 0.0000 g: 0.0000 h: 0.0000
+ Atom     3(B ) s: 3.0018 p: 1.7994 d: 0.1794 f: 0.0216 g: 0.0000 h: 0.0000
+ Atom     4(H ) s: 1.0040 p: 0.0039 d: 0.0005 f: 0.0000 g: 0.0000 h: 0.0000
+ Atom     5(B ) s: 3.0018 p: 1.7991 d: 0.1793 f: 0.0216 g: 0.0000 h: 0.0000
+ Atom     6(N ) s: 3.3861 p: 3.7272 d: 0.0272 f: 0.0021 g: 0.0000 h: 0.0000
+ Atom     7(N ) s: 3.3862 p: 3.7271 d: 0.0271 f: 0.0021 g: 0.0000 h: 0.0000
+ Atom     8(H ) s: 0.7747 p: 0.0667 d: 0.0053 f: 0.0000 g: 0.0000 h: 0.0000
+ Atom     9(N ) s: 3.3861 p: 3.7271 d: 0.0271 f: 0.0021 g: 0.0000 h: 0.0000
+ Atom    10(H ) s: 0.7748 p: 0.0667 d: 0.0053 f: 0.0000 g: 0.0000 h: 0.0000
+ Atom    11(H ) s: 0.7747 p: 0.0667 d: 0.0053 f: 0.0000 g: 0.0000 h: 0.0000
+ Atom    12(H ) s: 1.0043 p: 0.0039 d: 0.0005 f: 0.0000 g: 0.0000 h: 0.0000
+ Sum  s:  24.5003 p:  16.7912 d:   0.6373 f:   0.0711 g:   0.0000 h:   0.0000
+ 
+ Population of atoms:
+ Atom     1(B )    Population:  5.00214855    Net charge: -0.00214855
+ Atom     2(H )    Population:  1.00855038    Net charge: -0.00855038
+ Atom     3(B )    Population:  5.00226865    Net charge: -0.00226865
+ Atom     4(H )    Population:  1.00845036    Net charge: -0.00845036
+ Atom     5(B )    Population:  5.00195445    Net charge: -0.00195445
+ Atom     6(N )    Population:  7.14251451    Net charge: -0.14251451
+ Atom     7(N )    Population:  7.14250786    Net charge: -0.14250786
+ Atom     8(H )    Population:  0.84678185    Net charge:  0.15321815
+ Atom     9(N )    Population:  7.14242099    Net charge: -0.14242099
+ Atom    10(H )    Population:  0.84684412    Net charge:  0.15315588
+ Atom    11(H )    Population:  0.84677759    Net charge:  0.15322241
+ Atom    12(H )    Population:  1.00878074    Net charge: -0.00878074
+ Total net charge:   -0.00000004
+ 
+ If outputting atom coordinates with charges to pvtz_benzBN.chg in current folder? (y/n)
+ 
+               ---------- Mulliken population analysis ----------
+ -1 Choose output destination, current: Screen
+ 0 Return
+ 1 Output Mulliken population and atomic charges
+ 2 Output gross atomic population matrix and decompose it
+ 3 Output gross basis function population matrix and decompose it
+ 4 Output orbital contributions to atomic populations to atmpopdcp.txt

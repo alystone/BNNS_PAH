@@ -1,0 +1,80 @@
+ Multiwfn -- A Multifunctional Wavefunction Analyzer
+ Version 3.6, release date: 2019-May-21
+ Project leader: Tian Lu (Beijing Kein Research Center for Natural Sciences)
+ Below paper *MUST BE CITED* if Multiwfn is utilized in your work:
+          Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580-592 (2012)
+ Multiwfn official website: http://sobereva.com/multiwfn
+ Multiwfn English forum: http://sobereva.com/wfnbbs
+ Multiwfn Chinese forum: http://bbs.keinsci.com/wfn
+ ( The number of threads: 12   Current date: 2020-01-06   Time: 22:47:26 )
+ 
+ Please wait...
+ Loading various information of the wavefunction
+ The highest angular moment basis functions is F
+ Loading basis set definition...
+ Loading orbitals...
+ Converting basis function information to GTF information...
+ Generating overlap matrix...
+ Back converting basis function information from Cartesian to spherical type...
+ Generating density matrix based on SCF orbitals...
+ 
+ Total/Alpha/Beta electrons:    106.0000     53.0000     53.0000
+ Net charge:     0.00000      Expected multiplicity:    1
+ Atoms:     26,  Basis functions:    620,  GTFs:   1002
+ Total energy:    -615.974605844599 Hartree,   Virial ratio:  2.00668162
+ This is a restricted single-determinant wavefunction
+ Orbitals from 1 to    53 are occupied
+ Title line of this file: pvtz_pyrene
+
+ Loaded pvtz_pyrene.fchk successfully!
+ Formula: H10 C16 
+ Molecule weight:       202.25060
+ 
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point
+ 2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and atomic charges
+ 8 Orbital composition analysis
+ 9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and extended CDA (ECDA)
+ 17 Basin analysis
+ 18 Electron excitation analysis
+ 19 Orbital localization analysis
+ 20 Visual study of weak interaction
+ 21 Energy decomposition analysis
+ 100 Other functions (Part1)        200 Other functions (Part2)
+ 
+            ================ Bond order analysis ===============
+ -1 Define fragment 1 and 2 for option 1,3,4,7,8 (to be defined)
+ 0 Return
+ 1 Mayer bond order analysis
+ 2 Multicenter bond order analysis (up to 12 centers)
+ -2 Multicenter bond order analysis in NAO basis (up to 12 centers)
+ 3 Wiberg bond order analysis in Lowdin orthogonalized basis
+ 4 Mulliken bond order analysis
+ 5 Decompose Mulliken bond order between two atoms to orbital contributions
+ 6 Orbital occupancy-perturbed Mayer bond order
+ 7 Fuzzy bond order analysis (FBO)
+ 8 Laplacian bond order (LBO)
+ 9 Decompose Wiberg bond order in NAO basis as atomic orbital pair contribution
+ Please wait...
+ 
+ Input atom indices, e.g. 3,4,7,8,10   (2~12 centers)
+ Input -3/-4/-5/-6 can search all possible three/four/five/six-center bonds
+ Input 0 can return to upper level menu
+ 
+ Input magnitude threshold for printing bond orders, e.g. 0.03
+ Note: The search may be not exhaustive. Please wait...
+     1     2     3     4     5     6  Result:  0.034032  Normalized:   0.56926
+     6     5     4     3     2     1  Result:  0.034032  Normalized:   0.56926

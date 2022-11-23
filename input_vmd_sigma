@@ -1,0 +1,14 @@
+cub benz_sigma 0.5
+cub benzBN_sigma 0.5
+cub anthraene_sigma 0.5
+cub anthraceneBN_sigma 0.5
+cub coronene_sigma 0.5
+cub coroneneBN_sigma 0.5
+cub naphthalene_sigma 0.5
+cub naphthaleneBN_sigma 0.5
+cub ph4linear_sigma 0.5
+cub ph4linearBN_sigma 0.5
+cub phenanthrene_sigma 0.5
+cub phenanthreneBN_sigma 0.5
+cub pyrene_sigma 0.5
+cub pyreneBN_sigma 0.5
